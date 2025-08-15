@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Winsome Constructions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff;
+    }
+
+    header {
+      background-color: #004c99;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      height: 80px;
+    }
+
+    nav {
+      background-color: #0073e6;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      padding: 15px 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      background-color: #0059b3;
+    }
+
+    .section {
+      display: none;
+      padding: 30px 40px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .active {
+      display: block;
+    }
+
+    footer {
+      background-color: #00264d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    img.centered-logo {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="kodai/21.png" alt="Winsome Constructions Logo" />
+    <div>
+      <h1>Winsome Constructions</h1>
+      <p>Building the Future, Restoring the Past</p>
+    </div>
+  </header>
+
+  <nav>
+    <a onclick="showPage('home')">Home</a>
+    <a onclick="showPage('about')">About</a>
+    <a onclick="showPage('services')">Services</a>
+    <a onclick="showPage('projects')">Projects</a>
+    <a onclick="showPage('contact')">Contact</a>
+  </nav>
+
+  <div id="home" class="section active"style="background-color: rgb(7, 34, 107); padding: 10px;">
+    <img src="kodai/21.png" width="150" height="150" class="centered-logo">
+    <h2 style="color: white; text-align: center;"><p><center>Winsome Constructions</center></p></h2>
+    <h3 style="color: white; text-align: center;"><center><p>We treat every building like a child — thoughtfully nurtured to grow into something strong, enduring, and beautiful. </p></h3></center><hr>
+      </div>
+  <div id="about" class="section"style="background-color: rgb(7, 34, 107); padding: 10px;">
+    <center><h2 style="color: white; text-align: center;">About Us</h2></center><hr>
+    <p>
+      <p style="color: white;">
+        At <strong>Winsome Constructions</strong>, we believe that every structure we build is more than just brick and mortar — it's a vision brought to life. Headquartered in Tamil Nadu, India, we are a dynamic construction company specializing in residential, commercial, and industrial development. With over two years of experience and a passionate team, we are known for delivering high-quality, sustainable, and cost-effective construction solutions.
+      </p>
+      <p style="color: white;">
+        Founded by <strong>Mr. Manikandan Mariyadas</strong> and <strong>Mr. Anbarasu K C</strong>, our journey began with a shared passion for architectural excellence and innovation. As sole proprietors, they bring leadership and commitment to every project. Whether it’s a dream home, a business space, or an industrial unit, we treat every assignment with dedication, transparency, and care.
+      </p>
+      <p style="color: white;">
+        Our core services include <strong>residential buildings, commercial spaces, interior design,</strong> and <strong>warehouse projects</strong>. From planning and design to execution and handover, we work closely with clients to ensure their vision is realized within budget and on time. We blend modern methods with traditional craftsmanship to deliver beautiful and durable structures.
+      </p>
+      <p style="color: white;">
+        Our portfolio spans across Tamil Nadu — including serene villas in Kodaikanal and urban apartments in Chennai. Every project reflects our adaptability to different locations, client preferences, and engineering challenges. We focus not only on appearance but also on comfort, strength, and long-term value.
+      </p>
+      <p style="color: white;">
+        What sets us apart is our <strong>customer-first mindset</strong>. We handle every project like nurturing a child — with care, precision, and pride. Our slogan, <em>"All breeding is like a child to us. We nurtured that child to be healthy and beautiful,"</em> reflects this deep commitment to quality and trust.
+      </p>
+      <p style="color: white;">
+        As we grow, we are also embracing digital innovation. We’re building a stronger presence through profiles, presentations, and a full-featured app to improve client interaction and project tracking.
+      </p>
+      <p style="color: white;">
+        At Winsome Constructions, we don’t just build structures — we create lasting spaces where lives unfold. Thank you for trusting us with your dreams. We look forward to building a better future, together.
+      </p>
+    </p>  <hr>
+  </div>
+
+
+  <div id="services" class="section"style="background-color: rgb(7, 34, 107); padding: 10px;">
+    <h2 style="color: white; text-align: center;">Our Services</h2>
+    <ul>
+      <li style="color: white;">🏠 Residential Buildings (Homes, Apartments, Villas)</li>
+      <li style="color: white;">🏢 Commercial Construction (Shops, Showrooms, Offices)</li>
+      <li style="color: white">🏭 Warehouse & Industrial Projects</li>
+      <li style="color: white;">🎨 Interior Design and Finishing</li>
+    </ul>
+  </div>
+
+  <div id="projects" class="section"style="background-color: rgb(7, 34, 107); padding: 10px;">
+        <h2 style="color: white; text-align: center;">Recent Projects</h2><hr>
+        <h3 style="color: white; text-align: center;">Kodaikanal villa</h3><hr>
+    <center><img src="kodai/IMG-20250803-WA0007.jpg" alt=""width="250" height="200">
+      <img src="kodai/4.jpg" alt=""width="250" height="200">
+      <img src="kodai/IMG-20250803-WA0004.jpg" alt=""width="250" height="200">
+      <img src="kodai/IMG-20250803-WA0005.jpg" alt=""width="250" height="200">
+    <img src="kodai/5.jpg" alt=""width="450" height="200">
+    <br></center>
+    <center>
+      <img src="kodai/IMG-20250803-WA0006.jpg" alt=""width="250" height="200">
+      <img src="kodai/3.jpg" alt=""width="200" height="300">
+      <img src="kodai/1.jpg" alt=""width="450" height="300">
+      <img src="kodai/IMG-20250803-WA0008.jpg" alt=""width="300" height="250">
+      <img src="kodai/IMG-20250803-WA0009.jpg" alt=""width="300" height="250">
+      <img src="kodai/IMG-20250803-WA0010.jpg" alt=""width="300" height="250"><br></center>
+    <center><img src="kodai/2.jpg" alt=""width="550" height="350"></center>
+
+    <hr>
+
+    <h3 style="color: white; text-align: center;">AE Apartment – Valasaravakkam</h3>
+    <hr>
+    <center><img src="Ae/IMG-20250628-WA0067.jpg" alt=""width="250" height="350">
+      <img src="Ae/IMG-20250628-WA0065.jpg" alt=""width="250" height="350">
+      <img src="Ae/IMG-20250628-WA0064.jpg" alt=""width="250" height="350">
+      <img src="Ae/IMG-20250628-WA0063.jpg" alt=""width="250" height="350">
+      <img src="Ae/IMG-20250628-WA0060.jpg" alt=""width="500" height="350">
+      <img src="Ae/2.JPG" alt=""width="500" height="350"><br>
+      <img src="Ae/1.jpg" alt=""width="700" height="450">
+      </center><hr>
+  </div>
+
+  <div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📍 Ninaikarai, Kattankulathur, Tamil Nadu – 603203</p>
+    <p>📞 +91-8248955682 / +91-8754140668</p>
+    <p>✉️ winsomeconstructions0621@gmail.com</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Winsome Constructions. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showPage(id) {
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
